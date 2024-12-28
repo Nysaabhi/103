@@ -394,7 +394,7 @@ body > h1:first-of-type:not(.heading) {
       }
       
       .menu-section { 
-          background: rgba(26, 26, 31, 0.95); 
+        background: rgba(26, 26, 31, 0.95); 
           margin-bottom: 24px; 
       }
       
@@ -1922,10 +1922,10 @@ function showLocatorsOverlay() {
         <div class="locators-header">
           <h2>Locator</h2>
           <div class="header-buttons-container">
-            <button class="select-metropolis" onclick="showMetropolisModal()">
-              <i class="fas fa-map-marker-alt"></i>
-              <span class="metropolis-name">${selectedMetropolis}</span>
-            </button>
+       <button class="select-metropolis" onclick="showMetropolisModal()">
+       <i class="fas fa-map-marker-alt"></i>
+       <span class="metropolis-name">Select City</span>
+       </button>
             <button class="close-locators" onclick="hideLocatorsOverlay()">
               <i class="fas fa-long-arrow-alt-left"></i>
             </button>
