@@ -394,6 +394,7 @@ body > h1:first-of-type:not(.heading) {
       }
       
       .menu-section { 
+          background: rgba(26, 26, 31, 0.95); 
           margin-bottom: 24px; 
       }
       
